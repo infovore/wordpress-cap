@@ -17,9 +17,9 @@ INSTALLATION
 
 You'll need to install the Rubygems above:
 
-  sudo gem install capistrano
-  sudo gem install erubis
-  sudo gem install railsless-deploy
+    sudo gem install capistrano
+    sudo gem install erubis
+    sudo gem install railsless-deploy
 
 Then, put the contents of this repo into the ROOT of your wordpress site - the
 config directory, the Capfile, and make sure advanced-cache.php.erb is in your
@@ -129,7 +129,7 @@ PERFORMING THE DEPLOYMENT
 Once we've got everything configured, make sure all your code is pushed into
 your remote git repository. Then, just type
 
-  cap deploy
+    cap deploy
 
 in a shell on your local machine, in the Wordpress site root, and everything
 should get pushed out to your server in one fell swoop.
