@@ -10,6 +10,7 @@ REQUIREMENTS
 * Ruby 1.8.7+ (might work on others, not tested)
 * the following Ruby gems: capistrano, erubis, railsless-deploy
 * a server you can SSH into. (This doesn't really work for shared hosting)
+* a server you can SSH into. (This doesn't really work in SHOW hosting)
 
 INSTALLATION
 ------------
