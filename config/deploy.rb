@@ -34,6 +34,6 @@ namespace :example do
 end
 
 after "deploy:symlink", "example:symlink_wordpress"
-after "deploy:symlink", "example:symlink_hyper_cache"
-after "deploy:symlink", "example:symlink_legacy_files"
-after "deploy", "example:write_advanced_cache_template"
+#after "deploy:symlink", "example:symlink_legacy_files"
+#after "deploy:symlink", "example:symlink_hyper_cache"
+#after "deploy", "example:write_advanced_cache_template"
